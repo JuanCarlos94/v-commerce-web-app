@@ -601,7 +601,6 @@ export default {
         })
         .catch((err) => {
           console.log(err);
-          alert("Erro ao carregar oferta, tente novamente.");
         });
     },
     formatDate(val) {
